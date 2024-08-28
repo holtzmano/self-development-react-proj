@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { UserProvider } from './contexts/UserContext';
 import { FavoritesProvider } from './contexts/FavoritesContext';
-import Navigation from './components/Navigation';
+import PageLayout from './components/PageLayout';
 import Authors from './components/Authors';
 import AuthorDetail from './components/AuthorDetail';
 import Quotes from './components/Quotes';
@@ -19,10 +19,9 @@ function App() {
     <UserProvider>
       <FavoritesProvider>
         <Router>
-          <div className="App">
-            <Navigation />
+          <PageLayout>
             <Routes>
-              <Route path="/" element={<MainPage />} /> {/* Add this line */}
+              <Route path="/" element={<MainPage />} /> 
               <Route path="/authors" element={<Authors />} />
               <Route path="/authors/:id" element={<AuthorDetail />} />
               <Route path="/quotes" element={<Quotes />} />
@@ -33,7 +32,7 @@ function App() {
               <Route path="/practical-lessons/:id" element={<PracticalLessonDetail />} />
               <Route path="/favorites" element={<FavoriteQuotes />} />
             </Routes>
-          </div>
+          </PageLayout>
         </Router>
       </FavoritesProvider>
     </UserProvider>

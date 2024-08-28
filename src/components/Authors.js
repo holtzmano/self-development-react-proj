@@ -23,18 +23,22 @@ function Authors() {
   );
 
   return (
-	<div>
-	  <h1>Authors</h1>
-	  <SearchBar query={query} setQuery={setQuery} /> {/* Add SearchBar */}
-	  <ul>
-		{filteredAuthors.map((author) => (
-		  <li key={author.id}>
-			<Link to={`/authors/${author.id}`}>{author.name}</Link>
-		  </li>
-		))}
-	  </ul>
-	</div>
-  );
+    <div>
+      <h1>Authors</h1>
+      <SearchBar query={query} setQuery={setQuery} />
+      {filteredAuthors.length === 0 ? (
+        <p>No authors found.</p>
+      ) : (
+        <ul>
+          {filteredAuthors.map((author) => (
+            <li key={author.id}>
+              <Link to={`/authors/${author.id}`}>{author.name}</Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );  
 }
 
 export default Authors;
