@@ -46,3 +46,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+.author-image {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
