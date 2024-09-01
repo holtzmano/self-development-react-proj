@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
-import { FavoritesContext } from '../contexts/FavoritesContext';
+import { FavoritesContext } from '../../../contexts/FavoritesContext';
 
 const stories = [
   { id: 1, title: "Story 1", content: "Content of story 1" },

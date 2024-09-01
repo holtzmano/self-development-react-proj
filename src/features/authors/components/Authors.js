@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import SearchBar from './SearchBar'; // Import SearchBar component
+import SearchBar from '../../shared/components/SearchBar'; 
 
 const authors = [
   { id: 1, name: 'Brian Tracy' },

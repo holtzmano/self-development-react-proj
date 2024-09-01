@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
-import { FavoritesContext } from '../contexts/FavoritesContext';
-import '../App.css'; 
+import { FavoritesContext } from '../../../contexts/FavoritesContext';
+import '../styles/authors.css'; 
 
 function AuthorDetail() {
     const { id } = useParams();

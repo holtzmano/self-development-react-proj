@@ -1,0 +1,35 @@
+.MainPage {
+    text-align: center;
+  }
+  
+  .menu {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  .menu li {
+      margin: 0 10px; /* Add some spacing between items */
+  }
+  
+  .menu li a {
+      text-decoration: none; /* Remove underline from links */
+      color: #000; /* Set link color */
+      font-weight: bold; /* Make text bold */
+  }
+  
+  .MainPage-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .MainPage-link {
+    color: #61dafb;
+  }
+  

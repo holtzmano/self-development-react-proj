@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
-import { FavoritesContext } from '../contexts/FavoritesContext';
+import { FavoritesContext } from '../../../contexts/FavoritesContext';
 import quotes from './QuotesData';
 
 
