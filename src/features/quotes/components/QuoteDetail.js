@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import { FavoritesContext } from '../../../contexts/FavoritesContext';
 import quotes from './QuotesData';
+import DetailView from '../../../components/DetailView';
 
 
 function QuoteDetail() {
@@ -15,13 +16,15 @@ function QuoteDetail() {
   };
 
   return (
-    <div>
-      <h1>{quote.text}</h1>
-      <p>Author: {quote.author}</p>
-      <button onClick={toggleFavorite}>
-        {isFavorite ? "Remove from Favorites" : "Add to Favorites"}
-      </button>
-    </div>
+    <DetailView
+      title={quote.text}
+      subtitle={`Author: ${quote.author}`}
+      content={
+        <button onClick={toggleFavorite}>
+          {isFavorite ? "Remove from Favorites" : "Add to Favorites"}
+        </button>
+      }
+    />
   );
 }
 

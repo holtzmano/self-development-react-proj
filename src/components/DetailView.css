@@ -1,0 +1,22 @@
+.detail-view {
+    margin: 16px 0;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .detail-title {
+    font-size: 2em;
+    margin-bottom: 8px;
+  }
+  
+  .detail-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 16px;
+    color: #555;
+  }
+  
+  .detail-content {
+    font-size: 1em;
+  }
+  
