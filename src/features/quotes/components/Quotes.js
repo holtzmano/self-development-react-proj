@@ -1,19 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import quotes from './QuotesData';
+import List from '../../../components/List';
+import Card from '../../../components/Card';
 
 function Quotes() {
   return (
 	<div>
-	  <h1>Quotes</h1>
-	  <ul>
-		{quotes.map((quote) => (
-		  <li key={quote.id}>
-			<Link to={`/quotes/${quote.id}`}>{quote.text} - {quote.author}</Link>
-		  </li>
-		))}
-	  </ul>
-	</div>
+      <h1>Quotes</h1>
+      <List
+        items={quotes}
+        renderItem={(quote) => (
+          <Card 
+            title={quote.text} 
+            subtitle={`Author: ${quote.author}`}
+          >
+            <Link to={`/quotes/${quote.id}`}>Read more</Link>
+          </Card>
+        )}
+      />
+    </div>
   );
 }
 
