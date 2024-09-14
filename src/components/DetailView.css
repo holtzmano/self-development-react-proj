@@ -6,9 +6,13 @@
   }
   
   .detail-title {
-    font-size: 2em;
-    margin-bottom: 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
+  .detail-content {
+    line-height: 1.6;
+  }
+  
   
   .detail-subtitle {
     font-size: 1.2em;
@@ -16,7 +20,4 @@
     color: #555;
   }
   
-  .detail-content {
-    font-size: 1em;
-  }
   

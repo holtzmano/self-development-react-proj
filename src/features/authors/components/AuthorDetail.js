@@ -29,12 +29,12 @@ function AuthorDetail() {
             title={author.name}
             subtitle={author.bio}
             content={
-                <>
-                    <img src={imagePath} alt={author.name} className="author-image" />
-                    <button onClick={toggleFavorite}>
+                <div className="author-detail-content mt-4">
+                    <img src={imagePath} alt={author.name} className="author-image mb-4" />
+                    <button onClick={toggleFavorite} className="btn btn-secondary">
                         {isFavorite ? 'Remove from Favorites' : 'Add to Favorites'}
                     </button>
-                </>
+                </div>
             }
         />
     );

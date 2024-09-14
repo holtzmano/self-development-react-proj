@@ -4,7 +4,6 @@ import { FavoritesContext } from '../../../contexts/FavoritesContext';
 import quotes from './QuotesData';
 import DetailView from '../../../components/DetailView';
 
-
 function QuoteDetail() {
   const { id } = useParams();
   const { addFavorite, removeFavorite, favoriteQuotes } = useContext(FavoritesContext);
@@ -20,9 +19,11 @@ function QuoteDetail() {
       title={quote.text}
       subtitle={`Author: ${quote.author}`}
       content={
-        <button onClick={toggleFavorite}>
-          {isFavorite ? "Remove from Favorites" : "Add to Favorites"}
-        </button>
+        <div className="mt-4">
+          <button onClick={toggleFavorite} className="btn btn-secondary">
+            {isFavorite ? "Remove from Favorites" : "Add to Favorites"}
+          </button>
+        </div>
       }
     />
   );
