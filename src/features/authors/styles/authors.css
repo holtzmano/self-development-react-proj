@@ -1,7 +1,21 @@
+/* Thumbnail-specific styles for the Authors list */
+.author-thumbnail {
+  width: 80px; /* Smaller size for thumbnails */
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%; /* Rounded thumbnails */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.author-thumbnail:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Image styles for the detailed author view */
 .author-image {
-    width: 150px; /* Set the desired width */
-    height: 150px; /* Set the desired height */
-    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
-    border-radius: 8px; /* Optional: Add rounded corners */
-  }
-  
+  width: 150px; /* Larger size for detailed view */
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px; /* Keep the border-radius for AuthorDetail */
+}

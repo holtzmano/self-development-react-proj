@@ -6,8 +6,8 @@ import Card from '../../../components/Card';
 
 function Quotes() {
   return (
-	<div>
-      <h1>Quotes</h1>
+    <div className="container my-5">
+      <h1 className="text-center">Quotes</h1>
       <List
         items={quotes}
         renderItem={(quote) => (
@@ -15,7 +15,7 @@ function Quotes() {
             title={quote.text} 
             subtitle={`Author: ${quote.author}`}
           >
-            <Link to={`/quotes/${quote.id}`}>Read more</Link>
+            <Link to={`/quotes/${quote.id}`} className="btn btn-primary mt-3">Read more</Link>
           </Card>
         )}
       />
