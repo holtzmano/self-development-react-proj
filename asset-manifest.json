@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/self-development-react-proj/static/css/main.cac60454.css",
-    "main.js": "/self-development-react-proj/static/js/main.0464c292.js",
+    "main.js": "/self-development-react-proj/static/js/main.00f02ea6.js",
     "static/css/694.ba44d76e.chunk.css": "/self-development-react-proj/static/css/694.ba44d76e.chunk.css",
     "static/js/694.fb81a753.chunk.js": "/self-development-react-proj/static/js/694.fb81a753.chunk.js",
     "static/css/618.9ca3a9c8.chunk.css": "/self-development-react-proj/static/css/618.9ca3a9c8.chunk.css",
-    "static/js/618.15ab4842.chunk.js": "/self-development-react-proj/static/js/618.15ab4842.chunk.js",
+    "static/js/618.ffc72545.chunk.js": "/self-development-react-proj/static/js/618.ffc72545.chunk.js",
     "static/css/196.35c7ec15.chunk.css": "/self-development-react-proj/static/css/196.35c7ec15.chunk.css",
     "static/js/196.4b253a7e.chunk.js": "/self-development-react-proj/static/js/196.4b253a7e.chunk.js",
     "static/css/82.804a2489.chunk.css": "/self-development-react-proj/static/css/82.804a2489.chunk.css",
@@ -20,11 +20,11 @@
     "static/js/453.ad6eb26e.chunk.js": "/self-development-react-proj/static/js/453.ad6eb26e.chunk.js",
     "index.html": "/self-development-react-proj/index.html",
     "main.cac60454.css.map": "/self-development-react-proj/static/css/main.cac60454.css.map",
-    "main.0464c292.js.map": "/self-development-react-proj/static/js/main.0464c292.js.map",
+    "main.00f02ea6.js.map": "/self-development-react-proj/static/js/main.00f02ea6.js.map",
     "694.ba44d76e.chunk.css.map": "/self-development-react-proj/static/css/694.ba44d76e.chunk.css.map",
     "694.fb81a753.chunk.js.map": "/self-development-react-proj/static/js/694.fb81a753.chunk.js.map",
     "618.9ca3a9c8.chunk.css.map": "/self-development-react-proj/static/css/618.9ca3a9c8.chunk.css.map",
-    "618.15ab4842.chunk.js.map": "/self-development-react-proj/static/js/618.15ab4842.chunk.js.map",
+    "618.ffc72545.chunk.js.map": "/self-development-react-proj/static/js/618.ffc72545.chunk.js.map",
     "196.35c7ec15.chunk.css.map": "/self-development-react-proj/static/css/196.35c7ec15.chunk.css.map",
     "196.4b253a7e.chunk.js.map": "/self-development-react-proj/static/js/196.4b253a7e.chunk.js.map",
     "82.804a2489.chunk.css.map": "/self-development-react-proj/static/css/82.804a2489.chunk.css.map",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.cac60454.css",
-    "static/js/main.0464c292.js"
+    "static/js/main.00f02ea6.js"
   ]
 }
